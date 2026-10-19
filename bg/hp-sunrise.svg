@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="base" x1="0" y1="0" x2="1" y2=".35"><stop offset="0" stop-color="#160f2e"/><stop offset="0.45" stop-color="#5a1430"/><stop offset="1" stop-color="#c2452c"/></linearGradient>
+  <radialGradient id="glow" cx="0.729" cy="0.519" r=".42">
+    <stop offset="0" stop-color="#ffcf6a" stop-opacity=".42"/><stop offset=".5" stop-color="#ffcf6a" stop-opacity=".14"/><stop offset="1" stop-color="#ffcf6a" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="paint" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency=".006 .011" numOctaves="3" seed="11" result="t"/>
+    <feDisplacementMap in="SourceGraphic" in2="t" scale="50" xChannelSelector="R" yChannelSelector="G" result="d"/>
+    <feGaussianBlur in="d" stdDeviation="2.2"/>
+  </filter>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="bokeh" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1"/></filter>
+  <filter id="brush" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".012 .03" numOctaves="4" seed="14"/>
+    <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  .9 0 0 0 -.38"/>
+  </filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/><feColorMatrix values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .09 0"/></filter>
+  <linearGradient id="quiet" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".38"/><stop offset=".5" stop-color="#000" stop-opacity=".12"/><stop offset=".75" stop-color="#000" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1920" height="1080" fill="url(#base)"/>
+<g filter="url(#paint)"><path d="M1400,560 L3995,393 L3995,727Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L3937,1131 L3842,1451Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L3673,1822 L3492,2103Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L3225,2412 L2973,2630Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L2630,2851 L2326,2990Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L1935,3104 L1604,3152Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L1196,3152 L865,3104Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L474,2990 L170,2851Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L-173,2630 L-425,2412Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L-692,2103 L-873,1822Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L-1042,1451 L-1137,1131Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L-1195,727 L-1195,393Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L-1137,-11 L-1042,-331Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L-873,-702 L-692,-983Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L-425,-1292 L-173,-1510Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L170,-1731 L474,-1870Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L865,-1984 L1196,-2032Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L1604,-2032 L1935,-1984Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L2326,-1870 L2630,-1731Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L2973,-1510 L3225,-1292Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L3492,-983 L3673,-702Z" fill="#ffd98a" opacity="0.28"/><path d="M1400,560 L3842,-331 L3937,-11Z" fill="#ffd98a" opacity="0.28"/><ellipse cx="1400" cy="980" rx="1100" ry="260" fill="#3b0f22" opacity="0.85" transform="rotate(0 1400 980)"/><path d="M-200,1263 L-142,1261 L-84,1256 L-26,1250 L32,1241 L90,1230 L148,1216 L206,1200 L264,1182 L322,1163 L380,1143 L438,1121 L496,1100 L554,1079 L612,1058 L670,1039 L728,1020 L786,1004 L844,988 L902,974 L960,962 L1018,951 L1076,941 L1134,932 L1192,923 L1250,914 L1308,905 L1366,896 L1424,885 L1482,874 L1540,861 L1598,848 L1656,833 L1714,817 L1772,800 L1830,783 L1888,766 L1946,748 L2004,732 L2062,716 L2120,701 L2120,807 L2062,837 L2004,868 L1946,899 L1888,930 L1830,958 L1772,985 L1714,1009 L1656,1030 L1598,1047 L1540,1061 L1482,1071 L1424,1077 L1366,1080 L1308,1079 L1250,1077 L1192,1072 L1134,1067 L1076,1061 L1018,1056 L960,1052 L902,1049 L844,1050 L786,1053 L728,1059 L670,1069 L612,1083 L554,1100 L496,1120 L438,1143 L380,1168 L322,1196 L264,1224 L206,1253 L148,1281 L90,1309 L32,1335 L-26,1359 L-84,1381 L-142,1400 L-200,1416Z" fill="#f1dfc4" opacity="0.35"/></g>
+<rect width="1920" height="1080" fill="url(#glow)" style="mix-blend-mode:screen"/>
+<rect width="1920" height="1080" filter="url(#brush)" opacity=".28" style="mix-blend-mode:soft-light"/>
+<rect width="1920" height="1080" fill="url(#quiet)"/>
+<rect width="1920" height="1080" filter="url(#grain)"/>
+</svg>
