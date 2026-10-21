@@ -2,10 +2,10 @@
 (function () {
   const links = [
     ["Home", "index.html"], ["HistoryPlunge", "historyplunge.html"], ["Women's HistoryPlunge", "womens-historyplunge.html"],
-    ["GeoPlunge", "geoplunge.html"], ["For Teachers", "teachers.html"], ["Tournaments", "tournaments.html"], ["About Us", "about.html"],
+    ["GeoPlunge", "geoplunge.html"], ["For Teachers", "teachers.html"], ["Tournaments", "tournaments.html"], ["About Us", "about.html"], ["Shop", "shop.html"],
   ];
   const small = [
-    ["Shop", "https://learningplunge.org/shop"], ["Donate", "https://learningplunge.org/donate/"],
+    ["Donate", "https://learningplunge.org/donate/"],
     ["Kids' Zone", "https://learningplunge.org/kids-zone/"], ["News", "https://learningplunge.org/plunge-in/"],
   ];
   const d = document.createElement("div");
